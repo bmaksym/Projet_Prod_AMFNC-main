@@ -20,10 +20,26 @@
   ],
   "author": "Equipe AMFNC",
   "contributors": [
-    "Amy Bienvenu <amy.bienvenu@outlook.com> (https://github.com/amypurple)",
-    "Francis Bolduc <f.bolduc@outlook.com> (https://github.com/FrankBol)",
-    "Nathalie Nicolas <nanic001@edu.cegepgarneau.ca> (https://github.com/Nathalie-newdev)",
-    "Christopher Petryk <chpet001@edu.cegepgarneau.ca> (https://github.com/ChristWeb)"
+    {
+      "name": "Amy Bienvenu",
+      "email": "amy.bienvenu@outlook.com",
+      "url": "https://github.com/amypurple"
+    },
+    {
+      "name": "Francis Bolduc",
+      "email": "f.bolduc@outlook.com",
+      "url": "https://github.com/FrankBol"
+    },
+    {
+      "name": "Nathalie Nicolas",
+      "email": "nanic001@edu.cegepgarneau.ca",
+      "url": "https://github.com/Nathalie-newdev"
+    },
+    {
+      "name": "Christopher Petryk",
+      "email": "chpet001@edu.cegepgarneau.ca",
+      "url": "https://github.com/ChristWeb"
+    }
   ],
   "license": "ISC",
   "bugs": {
@@ -33,7 +49,6 @@
   "dependencies": {
     "axios": "^0.26.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.3"
   }
 }
