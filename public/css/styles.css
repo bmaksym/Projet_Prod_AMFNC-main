@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background-color: rgba(47, 81, 182, 0.137);
+  background-image: url(../image/skiRando.jpg);
+  background-size: cover ;
+}
+
+label {
+  display: inline-block;
+  padding: 10px
+}
+
+h1 {
+  margin: 50px;
+  font-size: 5em;
+  color:rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgb(68, 175, 236), 0 0 25px rgb(87, 184, 223), 0 0 5px rgb(0, 0, 255);
+}
+
+form{
+  display: inline-block;
+  margin: 0 auto;
+ 
+  width: 400px;
+
+}
+fieldset{
+  background-color: rgb(176, 208, 245);
+}
+.champ {
+  text-align: left;
+  display: block;
+}
+
+fieldset {
+  text-align: center;
+  padding: 50px;
+}
+
+div>label {
+  width: 150px;
+}
+
+button {
+  background-color: rgb(239, 243, 26);
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin: 50px;
+
+}
+
+.profil {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: white;
+  background-color: rgb(176, 208, 245);
+}
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.profilInfo{
+  display: inline-block;
+  width: 30%;
+  margin-top: 70px;
+  font-size: 1.5em;
+}
+.profilLeft{
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
